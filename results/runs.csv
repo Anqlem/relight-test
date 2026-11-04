@@ -1,0 +1,13 @@
+image,option,variant,settings,sec_per_image,usd_per_image,geometry,materials,matches_target,shadows_plausible,notes
+exterior_01_facade,sun_direction,sun_left,HF Space defaults; sun dragged to the left,20.0,0,5.0,2.0,5.0,5.0,
+exterior_02_corner,sun_direction,sun_opposite,HF Space defaults; sun dragged to the opposite side,21.0,0,4.0,2.0,5.0,5.0,
+interior_01_blinds,sun_direction,sun_high_other_side,HF Space defaults; sun dragged higher and to the other side,23.0,0,5.0,2.0,5.0,5.0,first attempt failed: ZeroGPU daily quota exceeded for anonymous use; worked after retry
+exterior_01_facade,qwen_relight,sun_left,"Space prithivMLmods/Qwen-Image-Edit-2509-LoRAs-Fast, LoRA=Relight, prompt: sunlight coming from the left, mid-afternoon, balcony shadows fall to the right",20.0,0,4.0,5.0,1.0,1.0,first run in the Space (includes warm-up); user: almost nothing changed
+exterior_02_corner,qwen_relight,sun_opposite,"same Space, LoRA=Relight, prompt: the sun is now on the opposite side, the lit and shadowed sides of the building are swapped",6.5,0,4.0,5.0,1.0,1.0,user: almost nothing changed
+interior_01_blinds,qwen_relight,sun_high_other_side,"same Space, LoRA=Relight, prompt: the sun is higher and comes from the other side, sharp blind shadows on the wall at a steeper angle",5.5,0,4.0,5.0,1.0,1.0,user: almost nothing changed
+exterior_01_facade,myarchitectai,golden_hour,MyArchitectAI Relight web app; preset: golden hour (no sun-direction control),17,,,,,,free credits after sign-up (1 free relight + 10 with an account)
+exterior_02_corner,myarchitectai,golden_hour,MyArchitectAI Relight web app; preset: golden hour,16,,,,,,
+interior_01_blinds,myarchitectai,golden_hour,MyArchitectAI Relight web app; preset: golden hour,14,,,,,,
+exterior_01_facade,myarchitectai,night,MyArchitectAI Relight web app; preset: night,16,,,,,,time approximate (user: about the same as golden hour)
+exterior_02_corner,myarchitectai,night,MyArchitectAI Relight web app; preset: night,16,,,,,,time approximate
+interior_01_blinds,myarchitectai,night,MyArchitectAI Relight web app; preset: night,15,,,,,,time approximate

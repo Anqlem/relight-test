@@ -1,0 +1,13 @@
+image,option,variant,out_w,out_h,zoom,frame_kept,edge_f1,edge_precision,edge_recall,light_change,mean_lum_delta
+exterior_01_facade,myarchitectai,golden_hour,1632,1728,1.0,1.0,0.866,0.869,0.862,0.054,0.002
+exterior_01_facade,myarchitectai,night,1632,1728,1.0,1.0,0.352,0.586,0.252,1.204,-0.345
+exterior_02_corner,myarchitectai,golden_hour,1360,2048,1.009,0.982,0.872,0.861,0.884,0.047,-0.061
+exterior_02_corner,myarchitectai,night,1360,2048,1.0,1.0,0.215,0.57,0.133,0.686,-0.31
+interior_01_blinds,myarchitectai,golden_hour,1280,1920,1.0,1.0,0.6,0.432,0.981,0.013,-0.106
+interior_01_blinds,myarchitectai,night,1280,1920,1.001,0.998,0.348,0.316,0.387,0.249,-0.484
+exterior_01_facade,qwen_relight,sun_left,960,1024,1.029,0.944,0.914,0.902,0.925,0.003,-0.067
+exterior_02_corner,qwen_relight,sun_opposite,672,1024,1.22,0.672,0.935,0.936,0.933,0.05,-0.073
+interior_01_blinds,qwen_relight,sun_high_other_side,672,1024,1.222,0.67,0.538,0.375,0.952,0.042,-0.164
+exterior_01_facade,sun_direction,sun_left,992,1056,1.008,0.984,0.633,0.606,0.661,0.59,0.345
+exterior_02_corner,sun_direction,sun_opposite,832,1248,1.0,1.0,0.704,0.642,0.778,0.717,0.26
+interior_01_blinds,sun_direction,sun_high_other_side,832,1248,1.0,1.0,0.589,0.508,0.7,0.879,-0.085
